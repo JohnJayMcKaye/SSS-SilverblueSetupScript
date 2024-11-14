@@ -29,6 +29,7 @@ flatpak install --user fedora org.jpilot.JPilot
 
 echo "aktiviere automatische Updates"
 echo "ich arbeite daran" > log.txt
+echo "zeile 2" > log.txt
 
 
 
