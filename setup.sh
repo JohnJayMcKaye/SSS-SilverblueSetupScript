@@ -34,6 +34,8 @@ echo "ich arbeite daran" > log.txt
 
 echo "----------------------------------------------------------------"
 echo "                 fertig, danke für deine Geduld                 "
+echo "                 bitte starte nun neu und führe                 "
+echo "                 das 2te script aus.                 "
 echo "----------------------------------------------------------------"
 
 
