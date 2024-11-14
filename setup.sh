@@ -8,6 +8,9 @@ echo "----------------------------------------------------------------"
 echo "     wenn alles gut geht, ist dein PC nachher nicht kaputt      "
 echo "----------------------------------------------------------------"
 
+echo "bereite System für Script vor"
+rpm-ostree cancel
+
 
 echo "entferne RPM-Version von Firefox (wird durch Flatpak-Version ersetzt)"
 rpm-ostree override remove firefox firefox-langpacks
